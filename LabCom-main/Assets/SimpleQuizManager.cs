@@ -39,7 +39,7 @@ public class SimpleQuizManager : MonoBehaviour
             // เปลี่ยนรูปภาพโจทย์หลักให้เป็นรูปข้อถัดไป
             if (mainQuestionImage != null)
             {
-                mainQuestionImage.sprite = quizSprites[currentQuestionIndex];
+                mainQuestionImage.sprite = quizSprites[currentQuestionIndex - 1];
             }
 
             // ปิดหน้าต่างผลลัพธ์ (ResultPanel) สีเขียว เพื่อให้มองเห็นโจทย์ข้อใหม่
